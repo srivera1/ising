@@ -77,46 +77,7 @@ rm output/*
 rm examples/*
 sh examples.sh
 ```
-
-```bash
-./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 20 -V 200 -c 1.0 -j 1.0 -m 1.0 -n 1.0 -r 0.0 -s 0.0 -t 293.15 -w 1.0
-```
-<div><video controls src="https://github.com/srivera1/ising/examples/e2.mp4" muted="false"></video></div>
-
-```bash
-./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 20 -V 200 -c 1.0 -j 1.0 -m 1.0 -n 1.0 -r 1.0 -s 0.0 -t 293.15 -w 1.0
-```
-<div><video controls src="https://github.com/srivera1/ising/examples/e3.mp4" muted="false"></video></div>
-
-```bash
-./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 7 -V 200 -c 1.0 -j 1.0 -m -1.0 -n 1.0 -r 1.0 -s 0.01 -t 293.15 -w 1.0
-```
-<div><video controls src="https://github.com/srivera1/ising/examples/e4.mp4" muted="false"></video></div>
-
-```bash
-./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 20 -V 200 -c 1.0 -j 1.0 -m 1.0 -n 1.0 -r 1.0 -s 0.10 -t 293.15 -w 1.0
-```
-<div><video controls src="https://github.com/srivera1/ising/examples/e5.mp4" muted="false"></video></div>
-
-```bash
-./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 20 -V 200 -c 1.0 -j 1.0 -m -1.0 -n 1.0 -r 1.0 -s 0.10 -t 293.15 -w 1.0
-```
-<div><video controls src="https://github.com/srivera1/ising/examples/e6.mp4" muted="false"></video></div>
-
-```bash
-./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 20 -V 200 -c 0.9990 -j 1.0 -m -1.0 -n 1.0 -r 0.10 -s 0.10 -t 293.15 -w 1.00010
-```
-<div><video controls src="https://github.com/srivera1/ising/examples/e7.mp4" muted="false"></video></div>
-
-```bash
-./ising -H 500 -S 1000 -T 20 -V 200
-```
-<div><video controls src="https://github.com/srivera1/ising/examples/e8.mp4" muted="false"></video></div>
-
-```bash
-./ising -H 200 -S 1000 -T 30 -V 500 -t 100.0
-```
-<div><video controls src="https://github.com/srivera1/ising/examples/e9.mp4" muted="false"></video></div>
+[Check the generated videos](https://github.com/srivera1/ising/tree/main/examples)
 
 
 ## Contributing
