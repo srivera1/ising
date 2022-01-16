@@ -80,6 +80,55 @@ sh examples.sh
 [Check the generated videos](https://github.com/srivera1/ising/tree/main/examples)
 
 
+
+```bash
+./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 20 -V 200 -c 1.0 -j 1.0 -m 1.0 -n 1.0 -r 0.0 -s 0.0 -t 293.15 -w 1.0
+```
+
+![alt text](https://raw.githubusercontent.com/srivera1/ising/main/examples/ising_1000_e2.png?raw=true)
+
+```bash
+./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 20 -V 200 -c 1.0 -j 1.0 -m 1.0 -n 1.0 -r 1.0 -s 0.0 -t 293.15 -w 1.0
+```
+
+![alt text](https://raw.githubusercontent.com/srivera1/ising/main/examples/ising_1000_e3.png?raw=true)
+
+```bash
+./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 7 -V 200 -c 1.0 -j 1.0 -m -1.0 -n 1.0 -r 1.0 -s 0.01 -t 293.15 -w 1.0
+```
+
+![alt text](https://raw.githubusercontent.com/srivera1/ising/main/examples/ising_1000_e4.png?raw=true)
+
+```bash
+./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 20 -V 200 -c 1.0 -j 1.0 -m 1.0 -n 1.0 -r 1.0 -s 0.10 -t 293.15 -w 1.0
+```
+
+![alt text](https://raw.githubusercontent.com/srivera1/ising/main/examples/ising_1000_e5.png?raw=true)
+
+```bash
+./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 20 -V 200 -c 1.0 -j 1.0 -m -1.0 -n 1.0 -r 1.0 -s 0.10 -t 293.15 -w 1.0
+```
+
+![alt text](https://raw.githubusercontent.com/srivera1/ising/main/examples/ising_1000_e6.png?raw=true)
+
+```bash
+./ising -H 500 -J 1.0 -M 1.0 -S 1000 -T 20 -V 200 -c 0.9990 -j 1.0 -m -1.0 -n 1.0 -r 0.10 -s 0.10 -t 293.15 -w 1.00010
+```
+
+![alt text](https://raw.githubusercontent.com/srivera1/ising/main/examples/ising_1000_e7.png?raw=true)
+
+```bash
+./ising -H 500 -S 1000 -T 20 -V 200
+```
+
+![alt text](https://raw.githubusercontent.com/srivera1/ising/main/examples/ising_1000_e8.png?raw=true)
+
+```bash
+./ising -H 200 -S 1000 -T 30 -V 500 -t 100.0
+```
+![alt text](https://raw.githubusercontent.com/srivera1/ising/main/examples/ising_1000_e9.png?raw=true)
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
